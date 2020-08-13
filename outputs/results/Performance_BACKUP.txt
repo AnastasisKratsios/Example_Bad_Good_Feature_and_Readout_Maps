@@ -1,0 +1,10 @@
+\begin{tabular}{lrrr}
+\toprule
+{} &       Good &         Bad &    Vanilla \\
+\midrule
+MAE: Train  &   0.411278 &    2.073648 &   0.436235 \\
+MAE: Test   &   0.376498 &    5.637205 &   0.380143 \\
+RMSE: Train &   0.441824 &    2.056685 &   0.438715 \\
+RMSE: Test  &   0.421390 &    5.548146 &   0.388858 \\
+\bottomrule
+\end{tabular}

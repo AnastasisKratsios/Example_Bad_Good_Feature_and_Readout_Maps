@@ -7,7 +7,7 @@
 # Number of Jobs (Cores to use)
 n_jobs = 4
 # Number of Random CV Draws
-n_iter = 1
+n_iter = 5
 # Number of CV Folds
 CV_folds = 2#
 
@@ -20,10 +20,10 @@ CV_folds = 2#
 # Hyperparameter Grid
 #---------------------#
 
-param_grid_Nice_Nets = {'batch_size': [64],#, 64],
-                    'epochs': [200],#, 400, 800, 1000, 1200, 1600],
-                      'learning_rate': [0.0001],#,0.0005,0.005],
-                      'height': [1400],#[50, 200, 400, 800, 1000],
+param_grid_Nice_Nets = {'batch_size': [32],
+                    'epochs': [1200],
+                      'learning_rate': [0.0001],
+                      'height': [200],
                         'Depth_Feature_Map': [4],
                         'Depth_Readout_Map': [4],
                       'input_dim':[10],
